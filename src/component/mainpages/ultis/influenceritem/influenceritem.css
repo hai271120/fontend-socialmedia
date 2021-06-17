@@ -1,0 +1,27 @@
+.influencer-card{
+    max-width: 300px;
+    overflow: hidden;
+    height: 500px;
+    padding: 15px;
+    margin: 10px 0;
+    position: relative;
+}
+.influencer-card img{
+    width: 100%;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.influencer_box h2{
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #000;;
+}
+.influencer_box span{
+    color:black;
+}
